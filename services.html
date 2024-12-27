@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<!-- <span class="iconify feature-icon" data-icon="whh:gearsalt" data-inline="false"></span> -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Online Shop Designers</title>
+    <!-- bootstrap sheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <!-- internal sheets -->
+    <link rel="stylesheet" href="css/home_style.css">
+    <!-- google-fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <!-- iconify -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    <style>
+        .box:hover {
+            background-color: #3f4291;
+            transition-duration: 0.5s;
+            transition-timing-function: ease-in-out;
+        }
+        
+        .box {
+            box-shadow: 0px 0px 5px grey;
+            border-radius: 4px;
+            margin: 20px;
+            width: 500px;
+            padding: 20px;
+        }
+        
+        .mycl {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        
+        .mycl:hover {
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <section id="title">
+
+        <div class="container-fluid">
+            <nav class="navbar navbar-light navbar-expand-lg ">
+                <a class="navbar-brand" href="index.html"><img src="assets/logo.png" height=55px" width="140"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="features.html">Features</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="services.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Services
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="services.html">Web Development</a>
+                    <a class="dropdown-item" href="services.html">Web Designing</a>
+                    <a class="dropdown-item" href="services.html">E-commerce</a>
+                  </div>
+               </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Career.html">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contact.html">
+                                <button type="button" class="btn btn-outline-primary" id="nav-contact">Contact Us</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- title section -->
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <h1>Services To Launch You Forward</h1>
+                    <p>We offer a full range of design services that work together to put your business on the path to success.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="https://codecranes.com/theme/_assets/images/aboutus.jpg" id="title-image" alt="title-image">
+                </div>
+            </div>
+            <h1>Web Development</h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="https://codecranes.com/theme/_assets/images/improve.jpg" id="title-image" alt="title-image">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 " style="background:#e7268e;color:whitesmoke">
+                    <h2>Create From Scratch,Build Custom API,Specific Adaptations</h2>
+                    <p>We are an experienced web development company that excels at building websites with maximum flexibility and ease-of-use.</p>
+                    <p> With elegant performance across every platform, the websites we build offer the functionality you need to grow and manage your business.</p>
+                </div>
+            </div>
+
+            <h1>Web Design</h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12" style="background:#4177bd;color:whitesmoke">
+                    <h2>Combine Design,Thinking and Technical</h2>
+                    <p>Every business needs a unique identity to stand-out from the rest. That is why, instead of an one-size-fits-all solution, we offer custom design packages that cater to the needs of small size to enterprise level eCommerce projects.</p>
+                    <p>We build visually stunning websites that elevate your brand, engage visitors, and create conversions.</p>
+                    <p>Our website design execution emphasizes an attractive and consistent look and feel, intuitive layout and navigation, clear and effective communication, and an accessible, responsive environment.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="https://codecranes.com/theme/_assets/images/main.jpg" id="title-image" alt="title-image">
+                </div>
+
+            </div>
+
+            <h1>Graphics Designing</h1>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <img src="https://codecranes.com/theme/_assets/images/osplugins.jpg" id="title-image" alt="title-image">
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12" style="background:#3f426b;color:whitesmoke">
+                    <h2>Graphic design should both inform and inspire.</h2>
+                    <p>With experience ranging from high-end and unusual print materials to digital design, our team delivers striking designs that create a strong positive impression with customers, and deliver the results you want.</p>
+                    <p>When you communicate with clients and potential customers, whether in person or virtually, you need professional stationery to convey your message and showcase your brand</p>
+                    <p>Our design team specializes in creating elegant, on-brand stationery that expresses your professional identity
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row footer-list">
+                <div class="col-lg-3 col-md-6">
+                    <h4>OnlineShopDesigners</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="Portfolio.html">Portfolio</a></li>
+                        <li><a href="Career.html">Career</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>E-commerce</li>
+                        <li>Web Development</li>
+                        <li>Web Designing</li>
+                        <li>Graphics Designing</li>
+                        <li>Digital Marketing</li>
+                        <li>Logo Design</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4>We are located at</h4>
+                    <p>XYZ, lorem Street, <br> 00010-Erode, Tamil Nadu <br>India. </p>
+                    <p>Email: <a href="#">example@email.com</a> <br> Mobile: <a href="#">+1-101101010</a> </p>
+                </div>
+            </div>
+            <div class="social">
+                <h4>Follow Us</h4>
+                <a href="#"><span class="iconify" data-icon="akar-icons:facebook-fill" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="bx:bxl-instagram-alt" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="ant-design:twitter-circle-filled" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="akar-icons:telegram-fill" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="foundation:social-youtube" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="entypo-social:linkedin-with-circle" data-inline="false"></span></a>
+                <a href="#"><span class="iconify" data-icon="ic:round-email" data-inline="false"></span></a>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>All Right reserved © 2021 OnlineShopDesigners</p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- bootstrap script -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> -->
+    <script>
+        var a = document.querySelectorAll(".box");
+        console.log(a);
+        a.forEach((e) => {
+
+            e.addEventListener("mouseenter", () => {
+                console.log("billa");
+                e.style.color = "white";
+            })
+            e.addEventListener("mouseleave", () => {
+                e.style.color = "black";
+            })
+
+        })
+    </script>
+</body>
+
+</html>
